@@ -13,6 +13,7 @@
 #include <linux/virtio.h>
 #include <linux/virtio_config.h>
 #include <linux/virtio_ring.h>
+#include <linux/dma-map-ops.h>
 
 #define DRV_NAME "virtio-ivshmem"
 
