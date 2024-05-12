@@ -55,5 +55,5 @@ clean:
 	${RM} *.o vringh_test virtio_test vhost_net_test vhost_test/*.o \
               vhost_test/.*.cmd vhost_test/Module.symvers \
               vhost_test/modules.order *.d \
-			  virtio-ivshmem-block virtio-ivshmem-console
+              virtio-ivshmem-block virtio-ivshmem-console
 -include *.d
